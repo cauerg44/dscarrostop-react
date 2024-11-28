@@ -4,7 +4,9 @@ export default function App() {
 
   return (
     <>
-      <h1>Boa tarde</h1>
+      <header>
+        <h1>DSCarrosTop</h1>
+      </header>
     </>
   )
 }
