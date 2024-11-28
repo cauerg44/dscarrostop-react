@@ -1,6 +1,12 @@
+import './styles.css'
+
 export default function Header() {
 
     return (
-        <h1>Boa tarde</h1>
+        <header>
+            <div className="ct-container">
+                <h1>DSCarrosTop</h1>
+            </div>
+        </header>
     )
 }

@@ -1,12 +1,11 @@
 import './App.css'
+import Header from './routes/Page'
 
 export default function App() {
 
   return (
     <>
-      <header>
-        <h1>DSCarrosTop</h1>
-      </header>
+      <Header />
     </>
   )
 }
