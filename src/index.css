@@ -8,7 +8,7 @@
 
   --ct-color-font-primary: #3C9AF0;
   --ct-color-font-secondary: #5E5E5E;
-  --ct-color-font-secondary: #FFFFFF;
+  --ct-color-font-tertiary: #FFFFFF;
 }
 
 * {
@@ -22,4 +22,10 @@ a,
 a:hover {
   text-decoration: none;
   color: unset;
+}
+
+.ct-container {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
 }
