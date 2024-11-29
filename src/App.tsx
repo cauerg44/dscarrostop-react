@@ -1,9 +1,10 @@
+import Page from "./routes/Page";
 
 export default function App() {
 
   return (
     <>
-      <h1>Bom dia</h1>
+      <Page />
     </>
   )
 }

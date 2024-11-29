@@ -1,0 +1,18 @@
+header {
+    height: 70px;
+    background-color: var(--ct-color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.ct-container h1 {
+    text-align: center;
+    color: var(--ct-color-font-tertiary);
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .ct-container h1 {
+        font-size: 32px;
+    }
+}
