@@ -4,6 +4,7 @@ import Header from "../../components/Header"
 import TitleSection from "../../components/TitleSection"
 import TitleSection2 from "../../components/TitleSection2"
 import CommentCard from '../../components/CommentCard'
+import Footer from '../../components/Footer'
 
 export default function Page() {
 
@@ -21,8 +22,14 @@ export default function Page() {
                 <CommentCard />
                 <CommentCard />
                 <CommentCard />
+                <CommentCard />
+                <CommentCard />
+                <CommentCard />
             </section>
         </main>
+        <footer>
+            <Footer />
+        </footer>
         </>
     )
 }

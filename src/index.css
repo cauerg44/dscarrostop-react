@@ -36,8 +36,20 @@ a:hover {
   margin: 0 auto;
 }
 
+.ct-container-footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 @media(min-width: 768px) {
   .ct-container {
     max-width: 746px;
+  }
+}
+
+@media(min-width: 768px) {
+  .ct-comments-container {
+    max-width: 960px;
   }
 }
