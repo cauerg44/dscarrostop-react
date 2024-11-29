@@ -1,4 +1,5 @@
 import Header from "../../components/Header"
+import TitleSection from "../../components/TitleSection"
 
 export default function Page() {
 
@@ -6,8 +7,8 @@ export default function Page() {
         <>
         <Header />
         <main>
-            <section>
-
+            <section id="ct-cars-section-container" className="ct-container">
+                <TitleSection />
             </section>
         </main>
         </>
