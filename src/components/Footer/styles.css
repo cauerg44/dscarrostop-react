@@ -2,10 +2,6 @@ footer {
     height: 120px;
     background-color: var(--ct-color-primary);
     color: var(--ct-color-bg-primary);
+    padding: 0 15px;
 }
 
-.ct-footer-elements {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
