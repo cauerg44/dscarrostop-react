@@ -11,3 +11,11 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 320px) {
+    .ct-footer-elements {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 0;
+    }
+}
