@@ -1,7 +1,13 @@
 footer {
+    display: flex;
+    align-items: center;
     height: 120px;
     background-color: var(--ct-color-primary);
     color: var(--ct-color-bg-primary);
     padding: 0 15px;
 }
 
+.ct-footer-elements {
+    display: flex;
+    justify-content: space-between;
+}
