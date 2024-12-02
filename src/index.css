@@ -24,26 +24,26 @@ a:hover {
   color: unset;
 }
 
-.ct-container {
+.ct-top-container {
   width: 100%;
   max-width: 280px;
   margin: 0 auto;
 }
 
-.ct-comments-container {
+.ct-bottom-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
 @media(min-width: 768px) {
-  .ct-container {
+  .ct-top-container {
     max-width: 746px;
   }
 }
 
 @media(min-width: 768px) {
-  .ct-comments-container {
+  .ct-bottom-container {
     max-width: 960px;
   }
 }

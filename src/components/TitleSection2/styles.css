@@ -1,4 +1,4 @@
-.ct-comments-container h2 {
+.ct-bottom-container h2 {
     text-align: center;
     color: var(--ct-color-font-secondary);
     font-size: 20px;
@@ -6,7 +6,7 @@
 }
 
 @media(min-width: 576px) {
-    .ct-comments-container h2 {
+    .ct-bottom-container h2 {
         font-size: 32px;
     }
 }
